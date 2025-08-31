@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西洛德语词典 - Max Sinoh</title>
+    <link rel="stylesheet" href="dict_style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>西洛德语词典 / Sillodish Dictionary</h1>
+            <p>欢迎来到西洛德语的世界</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索单词（西洛德语或汉语）...">
+            <!-- 可选：增加按字母筛选的功能 -->
+            <div class="alpha-filter" id="alphaFilter">
+                <!-- JavaScript会动态生成A-Z的按钮 -->
+            </div>
+        </div>
+
+        <div class="dictionary-list" id="dictionaryList">
+            <!-- JavaScript会动态生成词条列表 -->
+        </div>
+    </div>
+
+    <script src="dict_data.js"></script>
+    <script src="dict_script.js"></script>
+</body>
+</html>
