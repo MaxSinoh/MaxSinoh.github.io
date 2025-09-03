@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let dictionaryData = []; // 用于存储加载的词典数据
 
     // 使用Papa Parse加载CSV文件
-    Papa.parse('dictionary.csv', {
+    Papa.parse('dict.csv', {
         download: true,
         header: true, // 第一行作为标题
         skipEmptyLines: true,
